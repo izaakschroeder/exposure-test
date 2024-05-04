@@ -1,11 +1,4 @@
 assert_lefthook_installed: true
-# TODO: Demonstrate remote configuration ✨
-# remotes:
-#   - git_url: git@github.com:otter-ai/lefthook
-#     ref: main
-#     configs:
-#       - lefthook/commitlint.yml
-#       - lefthook/telemetry.yml
 pre-push:
   scripts:
     guard.sh:
